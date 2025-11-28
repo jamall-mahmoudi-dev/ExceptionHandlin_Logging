@@ -54,13 +54,7 @@ pip install -r requirements.txt
 
 Add your PostgreSQL database information in `config.py` or a `.env` file:
 
-```python
-DB_NAME = "testdb"
-DB_USER = "bahram"
-DB_PASSWORD = "bahram"
-DB_HOST = "192.168.1.105"
-DB_PORT = "5432"
-```
+
 
 > This project uses **SQLAlchemy** for PostgreSQL integration.
 
